@@ -15,6 +15,7 @@ public class Demo {
 		Discount d = new DiscountImpl();
 		
 		Discount d1= new PrimeDiscount();
+		Discount d2= new PrimeDiscount();
 	
 		product pr =ioc.getBean(product.class);
 		pr.setPid(2);
